@@ -6,18 +6,18 @@
 //  Copyright (c) 2014 Cillian. All rights reserved.
 //
 
-#import "BezierGraph.h"
+#import "PointGraph.h"
 #import "PointObj.h"
 #import "UIColor+Extended.h"
 
-@interface BezierGraph()
+@interface PointGraph()
 
 @property (nonatomic, strong) UIColor *lineColour;
 
 @end
 
 
-@implementation BezierGraph {
+@implementation PointGraph {
     NSArray *points;
 }
 

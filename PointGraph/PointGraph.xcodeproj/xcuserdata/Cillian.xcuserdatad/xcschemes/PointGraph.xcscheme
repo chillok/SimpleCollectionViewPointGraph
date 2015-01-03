@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "69EBCDFD190BE43B00A215A6"
-               BuildableName = "BezirGraph.app"
-               BlueprintName = "BezirGraph"
-               ReferencedContainer = "container:BezirGraph.xcodeproj">
+               BuildableName = "PointGraph.app"
+               BlueprintName = "PointGraph"
+               ReferencedContainer = "container:PointGraph.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "69EBCE1E190BE43B00A215A6"
-               BuildableName = "BezirGraphTests.xctest"
-               BlueprintName = "BezirGraphTests"
-               ReferencedContainer = "container:BezirGraph.xcodeproj">
+               BuildableName = "PointGraphTests.xctest"
+               BlueprintName = "PointGraphTests"
+               ReferencedContainer = "container:PointGraph.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69EBCDFD190BE43B00A215A6"
-            BuildableName = "BezirGraph.app"
-            BlueprintName = "BezirGraph"
-            ReferencedContainer = "container:BezirGraph.xcodeproj">
+            BuildableName = "PointGraph.app"
+            BlueprintName = "PointGraph"
+            ReferencedContainer = "container:PointGraph.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69EBCDFD190BE43B00A215A6"
-            BuildableName = "BezirGraph.app"
-            BlueprintName = "BezirGraph"
-            ReferencedContainer = "container:BezirGraph.xcodeproj">
+            BuildableName = "PointGraph.app"
+            BlueprintName = "PointGraph"
+            ReferencedContainer = "container:PointGraph.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69EBCDFD190BE43B00A215A6"
-            BuildableName = "BezirGraph.app"
-            BlueprintName = "BezirGraph"
-            ReferencedContainer = "container:BezirGraph.xcodeproj">
+            BuildableName = "PointGraph.app"
+            BlueprintName = "PointGraph"
+            ReferencedContainer = "container:PointGraph.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

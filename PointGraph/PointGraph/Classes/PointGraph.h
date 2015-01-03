@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BezierGraph : UIView
+@interface PointGraph : UIView
 
 - (id)initWithFrame:(CGRect)rect andPoints:(NSArray *)array andLineColour:(UIColor *)color;
 

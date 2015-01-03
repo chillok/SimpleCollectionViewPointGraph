@@ -16,7 +16,7 @@
 #import "UIColor+Extended.h"
 #import "SelectedAreaViewController.h"
 #import "LoremIpsum.h"
-#import "BezierGraph.h"
+#import "PointGraph.h"
 #import "PointObj.h"
 
 static NSString *kCellIdentifier = @"UICollectionViewCell";
@@ -26,7 +26,7 @@ static NSString *kCellIdentifier = @"UICollectionViewCell";
 @property (nonatomic, weak) IBOutlet UICollectionView *collectionView;
 @property (nonatomic, strong) CHCollectionViewGraphLayout *collectionViewLayout;
 @property (nonatomic, strong) SelectedAreaViewController *selectedArea;
-@property (nonatomic, strong) BezierGraph *bezierGraph;
+@property (nonatomic, strong) PointGraph *bezierGraph;
 
 @end
 
@@ -88,7 +88,7 @@ static NSString *kCellIdentifier = @"UICollectionViewCell";
         count++;
     }
     
-    self.bezierGraph = [[BezierGraph alloc] initWithFrame:CGRectMake(0, 0, self.collectionView.frame.size.width, self.collectionView.frame.size.height) andPoints:array andLineColour:[self findHighestValueAndGetColour]];
+    self.bezierGraph = [[PointGraph alloc] initWithFrame:CGRectMake(0, 0, self.collectionView.frame.size.width, self.collectionView.frame.size.height) andPoints:array andLineColour:[self findHighestValueAndGetColour]];
     
     [self.view addSubview:self.bezierGraph];
     [self.view bringSubviewToFront:self.collectionView];
